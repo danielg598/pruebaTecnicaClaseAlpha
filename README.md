@@ -10,9 +10,6 @@ npm install
 ```
 npm run serve
 
-### Proyecto en producción
-```
-https://listadetareasclasealpha.netlify.app/#/
 
 ### Compiles and minifies for production
 ```
@@ -26,3 +23,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Proyecto en producción
+```
+https://listadetareasclasealpha.netlify.app/#/

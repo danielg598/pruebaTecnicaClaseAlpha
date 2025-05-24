@@ -55,3 +55,10 @@ onMounted(async () => {
   }
 });
 </script>
+
+<style>
+th {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: x-large;
+}
+</style>

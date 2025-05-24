@@ -1,6 +1,10 @@
 <template>
   <div class="app">
-    <h1>Lista de Tareas</h1>
+    <div class="pr">
+      <h2>Prueba tecnica Clase Alpha</h2>
+      <h2>Daniel Gonzalo Alzate Restrepo</h2>
+    </div>
+    <h1 class="titulo">Lista de Tareas</h1>
     <TaskTable />
   </div>
 </template>
@@ -12,6 +16,27 @@ import TaskTable from "./components/TaskTable.vue";
 <style>
 body {
   font-family: Arial, sans-serif;
+}
+
+.titulo {
+  text-align: center;
+  color: rgb(37, 10, 133);
+  font-size: xx-large;
+  font-weight: 900;
+  border-bottom: 1px solid rgb(111, 111, 105);
+}
+
+.pr {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.pr h2 {
+  font-size: small;
 }
 
 table {
