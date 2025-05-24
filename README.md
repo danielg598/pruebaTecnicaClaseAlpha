@@ -9,7 +9,10 @@ npm install
 ### Compiles and hot-reloads for development
 ```
 npm run serve
+
+### Proyecto en producción
 ```
+https://listadetareasclasealpha.netlify.app/#/
 
 ### Compiles and minifies for production
 ```
